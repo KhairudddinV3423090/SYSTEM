@@ -10,38 +10,38 @@
       />
       <ul class="flex gap-6">
         <li>
-          <a
-            href="/"
+          <router-link
+            to="/"
             class="text-white hover:text-x-yellow transition duration-150 ease-in-out"
-            >Home</a
+            >Home</router-link
           >
         </li>
         <li>
-          <a
-            href="/blog"
+          <router-link
+            to="/blog"
             class="text-white hover:text-x-yellow transition duration-150 ease-in-out"
-            >Blog</a
+            >Blog</router-link
           >
         </li>
         <li>
-          <a
-            href="#"
+          <router-link
+            to="#"
             class="text-white hover:text-x-yellow transition duration-150 ease-in-out"
-            >About Us</a
+            >About Us</router-link
           >
         </li>
         <li>
-          <a
-            href="/contactus"
+          <router-link
+            to="/contactus"
             class="text-white hover:text-x-yellow transition duration-150 ease-in-out"
-            >Contact Us</a
+            >Contact Us</router-link
           >
         </li>
         <li>
-          <a
-            href="/privacypolicy"
+          <router-link
+            to="/privacypolicy"
             class="text-white hover:text-x-yellow transition duration-150 ease-in-out"
-            >Privacy Policy</a
+            >Privacy Policy</router-link
           >
         </li>
       </ul>
@@ -74,40 +74,40 @@
         >
         <ul class="flex items-center gap-6">
           <li>
-            <a href="#">
+            <router-link to="#">
               <img
                 src="@/assets/images/logo/facebook.png"
                 alt=""
                 class="hover:opacity-75 transition duration-150 ease-in-out"
               />
-            </a>
+            </router-link>
           </li>
           <li>
-            <a href="#">
+            <router-link to="#">
               <img
                 src="@/assets/images/logo/twitter.png"
                 alt=""
                 class="hover:opacity-75 transition duration-150 ease-in-out"
               />
-            </a>
+            </router-link>
           </li>
           <li>
-            <a href="#">
+            <router-link to="#">
               <img
                 src="@/assets/images/logo/instagram.png"
                 alt=""
                 class="hover:opacity-75 transition duration-150 ease-in-out"
               />
-            </a>
+            </router-link>
           </li>
           <li>
-            <a href="#">
+            <router-link to="#">
               <img
                 src="@/assets/images/logo/linkedin.png"
                 alt=""
                 class="hover:opacity-75 transition duration-150 ease-in-out"
               />
-            </a>
+            </router-link>
           </li>
         </ul>
       </div>

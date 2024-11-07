@@ -71,7 +71,7 @@ function submitForm() {
               <p class="text-lg font-semibold">Contact Us</p>
               <hr class="my-2 border-gray-600" />
               <p class="font-bold mt-2">020 7993 2905</p>
-              <p><a href="mailto:hello@finsweet.com" class="text-blue-700">hello@finsweet.com</a></p>
+              <p><router-link to="mailto:hello@finsweet.com" class="text-blue-700">hello@finsweet.com</router-link></p>
             </div>
           </div>
 
